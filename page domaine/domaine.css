@@ -1,0 +1,94 @@
+@font-face {
+    font-family: "Algerian Regular.ttf";
+    src: url("../assets/font\ algerian/Algerian Regular.ttf") format("truetype");
+}
+
+.tete {
+    top: 0;
+    color: #c35c1c;
+    display: flex;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    width: 100%;
+    font-size: 25px;
+    font-family: "Algerian Regular.ttf";
+    z-index: 15;
+}
+
+.tete ul a {
+    display: block;
+    color: #c8692e;
+    text-decoration: none;
+}
+
+.tete ul li {
+    position: relative;
+    float: left;
+    margin: 20px;
+    display: block;
+}
+
+.tete img {
+    width: 200px;
+}
+
+#bouton {
+    color: #c8692e !important;
+    border-color: #c8692e !important;
+    font-family: "Algerian Regular.ttf";
+}
+
+#bouton:hover {
+    color: #fff !important;
+    background-color: #c8692e !important;
+    border-color: #c8692e !important;
+}
+
+.footer {
+    display: flex;
+    position: sticky;
+    margin-top: 80px;
+    background-color: #e6aa2a;
+    color: black;
+    justify-content: space-around;
+    height: 450px;
+    text-align: center;
+    align-items: center;
+    font-family: "Algerian Regular.ttf";
+}
+
+.or {
+    margin-top: 30px;
+}
+
+.footer .or div {
+    line-height: 35px;
+}
+
+.partenaire {
+    margin-top: 1px;
+    background-color: #e1ae42;
+    font-family: "Algerian Regular.ttf";
+}
+
+.partenaire h2 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#bas img {
+    height: 100px;
+    margin-bottom: 50px;
+    padding-right: 45px;
+}
+
+footer {
+    display: flex;
+    height: 75px;
+    align-items: center;
+    color: #c8692e;
+    justify-content: center;
+    font-family: "Algerian Regular.ttf";
+}
