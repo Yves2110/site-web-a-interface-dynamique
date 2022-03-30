@@ -1,0 +1,116 @@
+@font-face {
+    font-family: "Algerian Regular.ttf";
+    src: url("../style/font\ algerian/Algerian Regular.ttf") format("truetype");
+}
+
+.navbar * {
+    font-family: "Algerian Regular.ttf" !important;
+    color: #c35c1c !important;
+    font-size: 25px;
+    background-color: white !important;
+}
+
+.navbar-brand {
+    margin-left: 15px !important;
+}
+
+.collapse {
+    justify-content: space-around !important;
+}
+
+.nav-item {
+    margin-left: 15px !important;
+}
+
+.footer {
+    display: flex;
+    position: sticky;
+    background-color: #e6aa2a;
+    color: black;
+    justify-content: space-around;
+    height: 450px;
+    text-align: center;
+    align-items: center;
+    font-family: "Algerian Regular.ttf";
+}
+
+.or {
+    margin-top: 30px;
+}
+
+.footer .or div {
+    line-height: 35px;
+}
+
+.partenaire {
+    margin-top: 1px;
+    background-color: #e1ae42;
+    font-family: "Algerian Regular.ttf";
+}
+
+.partenaire h2 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#bas img {
+    height: 100px;
+    margin-bottom: 50px;
+    padding-right: 45px;
+}
+
+footer {
+    display: flex;
+    height: 75px;
+    align-items: center;
+    color: #c8692e;
+    justify-content: center;
+    font-family: "Algerian Regular.ttf";
+}
+
+#service {
+    background-color: #f7f7f7;
+    height: 500px;
+    display: flex;
+    color: #c8692e;
+    justify-content: space-evenly !important;
+    font-family: "Algerian Regular.ttf";
+    line-height: 29px;
+}
+
+#nos h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#domaine {
+    background-color: #c8692e !important;
+    color: white !important;
+    border-radius: 15px !important;
+}
+
+#propos {
+    background-color: #f7f7f7;
+    font-family: "Algerian Regular.ttf";
+    line-height: 29px;
+    color: #c8692e;
+}
+
+.propo,
+.mt-5 {
+    font-family: "Algerian Regular.ttf";
+    line-height: 29px;
+    color: #c8692e;
+    translate: -800px;
+    opacity: 0;
+    transition: all 3s ease-in-out;
+}
+
+header {
+    margin-bottom: 25px;
+}
+
+.anima {
+    opacity: 1;
+    translate: 0px;
+}

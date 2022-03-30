@@ -1,9 +1,10 @@
 @font-face {
     font-family: "Algerian Regular.ttf";
-    src: url("../assets/font\ algerian/Algerian Regular.ttf") format("truetype");
+    src: url("../style/font\ algerian/Algerian Regular.ttf") format("truetype");
 }
 
-.tete {
+
+/* .tete {
     top: 0;
     color: #c35c1c;
     display: flex;
@@ -15,32 +16,55 @@
     font-size: 25px;
     z-index: 500;
     font-family: "Algerian Regular.ttf";
-}
+} */
 
-.tete ul a {
+
+/* .tete ul a {
     display: block;
     color: #c8692e;
     text-decoration: none;
-}
+} */
 
-.tete ul li {
+
+/* .tete ul li {
     position: relative;
     float: left;
     margin: 20px;
     display: block;
-}
+} */
 
-.d-block {
+
+/* .d-block {
     margin-top: 130px;
+} */
+
+
+/* .tete img {
+    width: 200px;
+} */
+
+.navbar * {
+    font-family: "Algerian Regular.ttf" !important;
+    color: #c35c1c !important;
+    font-size: 25px;
+    background-color: white !important;
 }
 
-.tete img {
-    width: 200px;
+.navbar-brand {
+    margin-left: 15px !important;
+}
+
+.collapse {
+    justify-content: space-around !important;
+}
+
+.nav-item {
+    margin-left: 15px !important;
 }
 
 .container-fluid {
     height: 600px !important;
-    margin-top: 15px;
+    /* margin-top: 15px; */
     color: #c8692e;
     font-family: "Algerian Regular.ttf";
 }
@@ -50,7 +74,7 @@
 }
 
 .container {
-    margin-top: 105px;
+    /* margin-top: 105px; */
     color: #c8692e;
     font-family: "Algerian Regular.ttf";
 }
@@ -78,6 +102,12 @@
 .container h1 {
     text-align: center;
     margin: 30px;
+}
+
+#domaine {
+    background-color: #c8692e !important;
+    color: white !important;
+    border-radius: 15px !important;
 }
 
 .row {

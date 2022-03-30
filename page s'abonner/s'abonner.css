@@ -1,0 +1,143 @@
+.body,
+.html {
+    height: 100%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.bg-img {
+    /* The image used */
+    background-image: url("../image/essaie4.jpg");
+    /* Control the height of the image */
+    min-height: 500px;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+
+/* Add styles to the form container */
+
+#container {
+    position: absolute;
+    right: 0;
+    margin: 20px;
+    max-width: 300px;
+    padding: 16px;
+    background-color: white;
+}
+
+
+/* Full-width input fields */
+
+input[type=text],
+input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+}
+
+input[type=text]:focus,
+input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+
+/* Set a style for the submit button */
+
+.btn {
+    background-color: #04AA6D !important;
+    color: white !important;
+    padding: 16px 20px !important;
+    border: none !important;
+    cursor: pointer !important;
+    width: 100% !important;
+    opacity: 0.9 !important;
+}
+
+.btn:hover {
+    opacity: 1 !important;
+}
+
+@font-face {
+    font-family: "Algerian Regular.ttf";
+    src: url("../style/font\ algerian/Algerian Regular.ttf") format("truetype");
+}
+
+.navbar * {
+    font-family: "Algerian Regular.ttf" !important;
+    color: #c35c1c !important;
+    font-size: 25px;
+    background-color: white !important;
+}
+
+.navbar-brand {
+    margin-left: 15px !important;
+}
+
+.collapse {
+    justify-content: space-around !important;
+}
+
+.nav-item {
+    margin-left: 15px !important;
+}
+
+.footer {
+    display: flex;
+    position: sticky;
+    background-color: #e6aa2a;
+    color: black;
+    justify-content: space-around;
+    height: 450px;
+    text-align: center;
+    align-items: center;
+    font-family: "Algerian Regular.ttf";
+}
+
+.or {
+    margin-top: 30px;
+}
+
+.footer .or div {
+    line-height: 35px;
+}
+
+.partenaire {
+    margin-top: 1px;
+    background-color: #e1ae42;
+    font-family: "Algerian Regular.ttf";
+}
+
+.partenaire h2 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#bas img {
+    height: 100px;
+    margin-bottom: 50px;
+    padding-right: 45px;
+}
+
+footer {
+    display: flex;
+    height: 75px;
+    align-items: center;
+    color: #c8692e;
+    justify-content: center;
+    font-family: "Algerian Regular.ttf";
+}
+
+#domaine {
+    background-color: #c8692e !important;
+    color: white !important;
+    border-radius: 15px !important;
+}

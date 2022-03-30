@@ -6,16 +6,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NEBRATA SARL</title>
-    <link rel="shortcut icon" href="./assets/logo/NEBRATA1.png" type="image/x-icon">
+    <link rel="shortcut icon" href="./image/logo/NEBRATA1.png" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="./style/style.css">
     <link rel="stylesheet" href="../bootstrap-5.1.3-dist/css/bootstrap.min.css">
 
 </head>
 
 <body>
     <header>
-        <nav class="tete">
+        <!-- <nav class="tete">
             <a href="#index.html">
                 <img src="/assets/logo/NEBRATA1.png" alt="logo">
             </a>
@@ -49,6 +49,36 @@
                     </ul>
                 </li>
             </ul>
+        </nav> -->
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-xxl">
+                <a class="navbar-brand" href="index.html">
+                    <img src="./image/logo/NEBRATA1.png" alt="" width="200px" height="auto">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="index.html" id="domaine">Accueil</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./page domaine/domaine.html">Domaines</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./page Présentation/presentation.html">Présentation</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Equipe.html"> Notre équipe</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./page s'abonner/s'abonner.html">S'abonner</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </nav>
     </header>
     <div></div>
@@ -57,22 +87,22 @@
             <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="./assets/image/blockchain1.jpg" class="d-block w-100" alt="...">
+                        <img src="./image/dribble_shot_.gif" class="d-block w-100" alt="...">
                     </div>
                     <div class="carousel-item">
-                        <img src="./assets/image/Bitcoin-Machine-Crypto-Gif.gif" class="d-block w-100" alt="...">
+                        <img src="./image/Bitcoin-Machine-Crypto-Gif.gif" class="d-block w-100" alt="...">
                     </div>
                     <div class="carousel-item">
-                        <img src="./assets/image/blockchain.jpg" class="d-block w-100" alt="...">
+                        <img src="/image/blockchain.jpg" class="d-block w-100" alt="...">
                     </div>
                     <div class="carousel-item">
-                        <img src="./assets/image/0ff7784184af761d38db3013a4d1584e.gif" class="d-block w-100" alt="...">
+                        <img src="./image/0ff7784184af761d38db3013a4d1584e.gif" class="d-block w-100" alt="...">
                     </div>
                     <div class="carousel-item">
-                        <img src="./assets/image/dribble_shot_.gif" class="d-block w-100" alt="...">
+                        <img src="./image/blockchain1.jpg" class="d-block w-100" alt="...">
                     </div>
                     <div class="carousel-item">
-                        <img src="/assets/image/matrix-code.gif" class="d-block w-100" alt="...">
+                        <img src="./image/matrix-code.gif" class="d-block w-100" alt="...">
                     </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
@@ -100,14 +130,16 @@
                     </div>
                 </div>
                 <div class="col-md-5 offset-1">
-                    <div><img src="./assets/logo/NEBRATA2.png" alt="logo2" class="img-fluid h-100"></div>
+                    <div><img src="./image/logo/NEBRATA2.png" alt="logo2" class="img-fluid h-100"></div>
                 </div>
             </div>
         </div>
     </section>
     <div class="clas">
         <div>
-            <button type="button" class="btn btn-outline-danger w-auto" id="bouton">lire-plus</button>
+            <a href="./page Présentation/presentation.html">
+                <button type="button" class="btn btn-outline-danger w-auto" id="bouton">lire-plus</button>
+            </a>
         </div>
     </div>
     <section>
@@ -115,7 +147,7 @@
             <div class="row">
                 <h1>METHODOLOGIE DE TRAVAIL</h1>
                 <div class="col-md-5" id="imgflip">
-                    <img src="./assets/image/agile_software_development_medium.png" alt="" width="100%" class="imag" class="imat">
+                    <img src="./image/agile_software_development_medium.png" alt="" width="100%" class="imag" class="imat">
                     <div class="overlays">
                         <div class="text">
                             <h3>La méthode Agile</h3>
@@ -126,7 +158,7 @@
                     </div>
                 </div>
                 <div class="col-md-5" id="imgflip">
-                    <img src="./assets/image/scrum.png" alt="" width="100%" class="imag">
+                    <img src="./image/scrum.png" alt="" width="100%" class="imag">
                     <div class="overlays">
                         <div class="text">
                             <h3>Scrum</h3>
@@ -144,12 +176,12 @@
             <h1>TECHNOLOGIE UTILISER</h1>
             <div class="techno">
                 <marquee behavior="scroll" direction="right" id="up">
-                    <img src="./assets/image/canva.jpg" alt="">
-                    <img src="./assets/image/gantt.jpg" alt="">
-                    <img src="./assets/image/github.png" alt="">
-                    <img src="./assets/image/laragon.jpg" alt="">
-                    <img src="./assets/image/xampp.jpg" alt="">
-                    <img src="./assets/image/trello.png" alt="">
+                    <img src="./image/canva.jpg" alt="">
+                    <img src="./image/gantt.jpg" alt="">
+                    <img src="./image/github.png" alt="">
+                    <img src="./image/laragon.jpg" alt="">
+                    <img src="./image/xampp.jpg" alt="">
+                    <img src="./image/trello.png" alt="">
                 </marquee>
             </div>
         </div>
@@ -166,9 +198,9 @@
         <div>
             <h2>NOUS SUIVRE</h2>
             <div class="or">
-                <div><img src=" ./assets//logo/Facebook_32.png " alt="Facebook_32 "></div>
-                <div><img src="./assets/logo/Twitter_32.png " alt="Twitter_32 "></div>
-                <div><img src="/assets/logo/LinkedIn_32.png " alt="LinkedIn_32 "></div>
+                <div><img src="./image//logo/Facebook_32.png" alt="Facebook_32 "></div>
+                <div><img src="./image/logo/Twitter_32.png" alt="Twitter_32 "></div>
+                <div><img src="./image/logo/LinkedIn_32.png" alt="LinkedIn_32 "></div>
             </div>
         </div>
         <div>
@@ -180,20 +212,20 @@
                     <br> 11020 Ouagadougou-BURKINA
                     <br> FASO
                 </div>
-                <div><img src="./assets/logo/Marker_32.png " alt="Marker_32 "></div>
+                <div><img src="./image/logo/Marker_32.png" alt="Marker_32 "></div>
             </div>
         </div>
     </section>
     <section class="partenaire">
         <h2>PARTENARIATS</h2>
         <marquee behavior="scroll" direction="left" id="bas">
-            <img src="./assets/image/Partenaires-01.png" alt="">
-            <img src="/assets/image/Partenaires-03.png" alt="">
-            <img src="./assets/image/Partenaires-04.png" alt="">
-            <img src="./assets/image/Partenaires-07.png" alt="">
-            <img src="/assets/image/Partenaires-08.png" alt="">
-            <img src="./assets/image/Partenaires-09.png" alt="">
-            <img src="./assets/image/Partenaires-10.png" alt="">
+            <img src="./image/Partenaires-01.png" alt="">
+            <img src="./image/Partenaires-03.png" alt=" ">
+            <img src="./image/Partenaires-04.png" alt=" ">
+            <img src="./image/Partenaires-07.png" alt=" ">
+            <img src="./image/Partenaires-08.png" alt=" ">
+            <img src="./image/Partenaires-09.png" alt=" ">
+            <img src="./image/Partenaires-10.png" alt=" ">
 
         </marquee>
 
@@ -203,6 +235,6 @@
     </footer>
 </body>
 <script src="../bootstrap-5.1.3-dist/js/bootstrap.bundle.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js " integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p " crossorigin="anonymous "></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
 </html>
