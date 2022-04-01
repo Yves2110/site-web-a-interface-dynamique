@@ -9,15 +9,21 @@
 
 .bg-img {
     /* The image used */
-    background-image: url("../image/essaie4.jpg");
+    background-image: url("../image/closeup-shot-of-beautiful-butterfly-with-interesting-textures-on-an-orange-petaled-flower-compressed.jpg");
     /* Control the height of the image */
-    min-height: 500px;
+    min-height: 766px;
     /* Center and scale the image nicely */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
 }
+
+
+/* .bg-img:hover {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+} */
 
 
 /* Add styles to the form container */

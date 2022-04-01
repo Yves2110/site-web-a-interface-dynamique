@@ -178,11 +178,26 @@
     margin-bottom: 50px;
 }
 
+.co {
+    display: flex !important;
+    justify-content: space-between !important;
+}
+
+.co img {
+    height: 100px;
+    /* width: 150px !important; */
+    margin-bottom: 50px;
+    padding-right: 45px;
+    padding-left: 45px;
+}
+
+
+/* 
 #bas img {
     height: 100px;
     margin-bottom: 50px;
     padding-right: 45px;
-}
+} */
 
 footer {
     display: flex;

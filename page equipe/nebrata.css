@@ -1,14 +1,42 @@
-body {
-    margin: 0px;
-    padding: 0px;
+@font-face {
+    font-family: "Algerian Regular.ttf";
+    src: url("../style/font\ algerian/Algerian Regular.ttf") format("truetype");
 }
 
+
+/* header */
+
+.navbar * {
+    font-family: "Algerian Regular.ttf" !important;
+    color: #c35c1c !important;
+    font-size: 25px;
+    background-color: white !important;
+}
+
+.navbar-brand {
+    margin-left: 15px !important;
+}
+
+.collapse {
+    justify-content: space-around !important;
+}
+
+.nav-item {
+    margin-left: 15px !important;
+}
+
+
+/* fin header */
+
 .column {
-    float: left;
-    width: 30%;
-    margin-bottom: 16px;
-    padding: 0 8px;
-    padding-top: 50px;
+    float: left !important;
+    width: 30% !important;
+    margin-bottom: 16px !important;
+    padding: 0 8px !important;
+    padding-top: 50px !important;
+    translate: -800px;
+    opacity: 0;
+    transition: all 3s ease-in-out;
 }
 
 
@@ -16,8 +44,8 @@ body {
 
 @media screen and (max-width: 650px) {
     .column {
-        width: 100%;
-        display: block;
+        width: 100% !important;
+        display: block !important;
     }
 }
 
@@ -32,7 +60,7 @@ body {
 /* Some left and right padding inside the container */
 
 .container {
-    padding: 0 16px;
+    padding: 0 16px !important;
 }
 
 
@@ -40,43 +68,133 @@ body {
 
 .container::after,
 .row::after {
-    content: "";
-    clear: both;
-    display: table;
+    content: "" !important;
+    clear: both !important;
+    display: table !important;
+}
+
+.cadre {
+    margin-left: 6%;
 }
 
 .title {
-    color: grey;
+    color: grey !important;
 }
 
 .button {
-    border: none;
-    outline: 0;
-    display: inline-block;
-    padding: 8px;
-    color: white;
-    background-color: #c8692e;
-    text-align: center;
-    cursor: pointer;
-    width: 100%;
+    border: none !important;
+    outline: 0 !important;
+    display: inline-block !important;
+    padding: 8px !important;
+    color: white !important;
+    background-color: #c8692e !important;
+    text-align: center !important;
+    cursor: pointer !important;
+    width: 100% !important;
+    font-family: "Algerian Regular.ttf" !important;
 }
 
 .button:hover {
-    background-color: #e6aa2a;
+    background-color: #e6aa2a !important;
 }
 
 .servi {
     color: #c8692e;
-    background-image: url("../image/equipe.PNG");
-    background-size: 100%;
-    background-repeat: no-repeat;
-    height: 800px;
+    background: url("../image/happy-cheerful-business-people-posing-in-office-hallway-compressed.jpg") !important;
+    background-size: 100% !important;
+    background-repeat: no-repeat !important;
+    height: 800px !important;
+    font-family: "Algerian Regular.ttf" !important;
+    animation: myAnim 5s ease-in-out 2s infinite alternate both;
 }
 
-.servi h1 {
-    margin-top: ;
+@keyframes myAnim {
+    0% {
+        transform: scale(1) translate(0, 0);
+        transform-origin: 16% 16%;
+    }
+    100% {
+        transform: scale(1.25) translate(-20px, -15px);
+        transform-origin: top;
+    }
 }
 
 .eq {
     text-align: center;
+    font-family: "Algerian Regular.ttf" !important;
+}
+
+.co {
+    display: flex !important;
+    justify-content: space-between !important;
+}
+
+.co img {
+    height: 100px;
+    /* width: 150px !important; */
+    margin-bottom: 50px;
+    padding-right: 45px;
+    padding-left: 45px;
+}
+
+.footer {
+    display: flex;
+    background-color: #e6aa2a;
+    color: black;
+    justify-content: space-around;
+    height: 450px;
+    text-align: center;
+    align-items: center;
+    font-family: "Algerian Regular.ttf";
+}
+
+.or {
+    margin-top: 30px;
+}
+
+.footer .or div {
+    line-height: 35px;
+}
+
+.partenaire {
+    margin-top: 1px;
+    background-color: #e1ae42;
+    font-family: "Algerian Regular.ttf";
+}
+
+.partenaire h2 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+footer {
+    display: flex;
+    height: 75px;
+    align-items: center;
+    color: #c8692e;
+    justify-content: center;
+    font-family: "Algerian Regular.ttf";
+}
+
+.containe {
+    background-color: #f7f7f7;
+    font-family: "Algerian Regular.ttf" !important;
+    color: #c35c1c !important;
+}
+
+
+/* .containe .card {
+    align-items: center !important;
+    display: flex !important;
+} */
+
+#domaine {
+    background-color: #c8692e !important;
+    color: white !important;
+    border-radius: 15px !important;
+}
+
+.anima {
+    opacity: 1;
+    translate: 0px;
 }

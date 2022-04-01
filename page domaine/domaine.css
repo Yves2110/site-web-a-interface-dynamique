@@ -53,6 +53,19 @@
                         border-radius: 15px !important;
                     }
                     
+                    .co {
+                        display: flex !important;
+                        justify-content: space-between !important;
+                    }
+                    
+                    .co img {
+                        height: 100px;
+                        /* width: 150px !important; */
+                        margin-bottom: 50px;
+                        padding-right: 45px;
+                        padding-left: 45px;
+                    }
+                    
                     .footer {
                         display: flex;
                         position: sticky;

@@ -8,6 +8,7 @@ window.addEventListener("load", () => {
     }
 
 });
+
 window.addEventListener("scroll", () => {
     let content = document.getElementById("propos");
     let contentPosition = content.getBoundingClientRect().top;
